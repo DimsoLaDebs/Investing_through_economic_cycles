@@ -1,0 +1,13 @@
+# Ignorer les résultats expérimentaux
+Nowcasting/Clean/results/
+
+# Ou plus générique :
+**/results/
+
+# D'autres classiques utiles pour Python :
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb_checkpoints/
+.env
+.DS_Store

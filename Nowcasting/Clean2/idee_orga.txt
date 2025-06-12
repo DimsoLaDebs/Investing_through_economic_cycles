@@ -1,0 +1,20 @@
+/ton_projet/
+│
+├── data/
+│   ├── data_loader.py          # Classe Data (celle que tu viens de finir)
+│   ├── data_processing.py      # Classe DataProcessing (préparations spéciales + bootstrap)
+│
+├── models/
+│   ├── classical_models.py     # Tous tes modèles "classiques" (RF, XGBoost, ElasticNet, Adaboost, etc.)
+│   ├── deep_models.py          # Tous tes modèles deep learning (LSTM, MLP, etc.)
+│
+├── utils/
+│   ├── metrics.py              # Fonctions pour calculer MSE, AUC, accuracy, etc.
+│   ├── plots.py                # Fonctions pour tes beaux graphes de benchmark
+│
+├── experiments/
+│   ├── experiment_runner.py    # Orchestration : quel processing, quel modèle, quels plots
+│
+├── main.py                     # Script principal pour lancer ton expérience
+├── requirements.txt            # Packages nécessaires
+├── README.md                    # Présentation du projet
